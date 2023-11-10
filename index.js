@@ -29,7 +29,7 @@ async function scrapePageHtml(url, signinURL) {
     // Wait for the navigation to happen after clicking 'Sign In', indicating that the login process is complete
     await page.waitForNavigation();
 
-    // Log a message to the console once the navigation is done, which means we've logged in successfully
+    // Log a message to the console once the navigation is done, which means you've logged in successfully
     console.log('Login successful');
 
     // Go to the product page
