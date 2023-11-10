@@ -53,7 +53,7 @@ async function scrapePageHtml(url, signinURL) {
             // Find each author's name and extract the text content
             const author = review.querySelector(".a-profile-name").textContent;
             // Find each review text within a container that has the class ".a-row.a-spacing-small.review-data" and extract the text content
-            const text = review.querySelector(".a-row.a-spacing-small.review-data").textContent.;
+            const text = review.querySelector(".a-row.a-spacing-small.review-data").textContent.trim();
             // Find each review date element with the class ".review-date" and extract its text content
             const date = review.querySelector(".review-date").textContent;
             
