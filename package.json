@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-web-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "papaparse": "^5.4.1",
+    "puppeteer": "^21.5.1"
+  }
+}
